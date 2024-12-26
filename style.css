@@ -1,0 +1,65 @@
+.item-sizee{
+    position: relative !important;
+    z-index: 99;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 16%;
+    height: 25%;
+    left: auto;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 0.5s;
+    z-index: -1;
+}
+h1:hover::before {
+    height: 50%;
+}
+
+.bookmark-dotted {
+    border-width: 2px 0 0 0;
+    border-style: dotted;
+    border-color: #352e28;
+
+}
+
+.bg-pink{
+    background-color: rgb(247, 236, 222);
+}
+
+#fixedBox{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.5);
+}
+.alertMsg {
+    width: 33rem;
+}
+.close-icon{
+    font-weight: 900;
+    font-size: 25px;
+    color: #212529;
+    
+}
+.circles li{
+    margin-left: 5px;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.circles li:nth-child(1){
+    background-color: #f15f5d;
+}
+.circles li:nth-child(2){
+    background-color: #febe2e;
+}
+.circles li:nth-child(3){
+    background-color: #4db748;
+}
+h1::before {
+z-index: -1;
+}
